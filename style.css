@@ -53,9 +53,16 @@ h1 {
 
 .card:hover {
   background-color: #ecefca;
-  color: #213448;
-  border-color: #213448;;
+  border-color: #213448;
   box-shadow: -3px 3px 4px black;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+.card:hover a {
+  color: #213448;
 }
 
 /*
