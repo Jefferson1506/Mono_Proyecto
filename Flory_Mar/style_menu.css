@@ -12,18 +12,23 @@
   margin: 0%;
 }
 
+body {
+  background-color: #feeeed;
+}
+
 nav,
 li,
 a {
+  color: #feeeed;
   text-decoration: none;
   list-style: none;
 }
 
 nav {
-  background-color: aquamarine;
+  background-color: #313d4c;
   height: 100px;
   padding: 15px;
-  border-bottom: 10px solid darkblue;
+  border-bottom: 10px solid #b34766;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,15 +36,56 @@ nav {
 
 nav ul {
   gap: 35px;
-  background-color: aqua;
   display: flex;
   align-items: center;
   text-align: center;
   margin-right: 30px;
 }
 
+nav ul li {
+  padding: 10px;
+  background-color: #313d4c;
+  width: 70px;
+  border-radius: 10%;
+  border-color: #f4b7c9;
+  border-width: 2px;
+  border-style: groove;
+  transition: all 0.5s ease;
+}
+
+.colum{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list:hover {
+  background-color: #f4b7c9;
+  transform: scale(1.2);
+  border: #313d4c 2px solid;
+}
+
+.list:hover a {
+  color: #313d4c;
+}
+
 nav img {
   width: 55px;
   height: 55px;
   object-fit: contain;
+  border-radius: 50%;
+  animation-name: infinite_rotate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes infinite_rotate {
+  fro {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
