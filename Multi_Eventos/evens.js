@@ -6,5 +6,5 @@ function imprimir() {
 }
 function imprimir1() {
     let a = document.getElementById("selecioname");
-    a.innerText = 'chupalo cristian';
+  a.blur()=  a.innerText = 'puto';
 }

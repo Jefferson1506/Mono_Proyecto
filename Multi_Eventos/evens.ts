@@ -8,5 +8,6 @@ function imprimir():void{
 function imprimir1(): void {
  
 let a= document.getElementById("selecioname") as HTMLParagraphElement;
-a.innerText='chupalo cristian'
+a.blur
+a.innerText='puto'
 }
