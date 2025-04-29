@@ -53,11 +53,7 @@ nav ul li {
   transition: all 0.5s ease;
 }
 
-.colum{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 
 .list:hover {
   background-color: #f4b7c9;
