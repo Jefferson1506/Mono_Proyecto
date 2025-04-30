@@ -6,5 +6,6 @@ function imprimir() {
 }
 function imprimir1() {
     let a = document.getElementById("selecioname");
-  a.blur()=  a.innerText = 'puto';
+    a.blur;
+    a.innerText = 'puto';
 }
